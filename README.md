@@ -111,6 +111,7 @@ The classifier is built as a **CNN-based Dense EfficientNet**, combining the com
 2. **EfficientNet MBConv blocks** — compound-scaled (depth × width × resolution) mobile inverted bottleneck convolutions extract hierarchical spatial features efficiently.
 3. **Dense connections** — feature reuse across blocks improves gradient flow and representational capacity on the limited dataset.
 4. **Classifier head** — Global Average Pooling → Dense → Dropout → Softmax over 4 classes.
+<img width="1341" height="776" alt="image" src="https://github.com/user-attachments/assets/c2d322bc-8d2c-41be-ba68-c5943ea7fcec" />
 
 Training uses categorical cross-entropy loss with the Adam optimizer, early stopping on validation loss, and aggressive augmentation to prevent overfitting on the 3,260-image dataset.
 
