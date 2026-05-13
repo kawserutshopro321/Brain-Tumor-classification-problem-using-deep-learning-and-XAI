@@ -1,1 +1,22 @@
-
+# Virtual Environment
+brain_tf_env/
+ 
+# Dataset
+dataset/
+data/
+Crop-Brain-MRI/
+Test-Data/
+*.h5
+*.keras
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# Python
+__pycache__/
+*.pyc
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
