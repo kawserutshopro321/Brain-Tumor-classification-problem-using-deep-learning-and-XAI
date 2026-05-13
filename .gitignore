@@ -1,25 +1,58 @@
-# Virtual Environment
-brain_tf_env/
- 
-# Dataset
-dataset/
-data/
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+brain_tf_venv
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Dataset Folders
+# =========================
+Training/
+Testing/
 Crop-Brain-MRI/
 Test-Data/
+
+# Optional dataset archives
+*.zip
+*.rar
+*.7z
+
+# =========================
+# Models
+# =========================
+saved_models/
 *.h5
 *.keras
- 
-# Jupyter
-.ipynb_checkpoints/
- 
-# Python
-__pycache__/
-*.pyc
- 
-# OS
+*.pth
+*.pt
+
+# =========================
+# Figures / Outputs
+# =========================
+figures/
+logs/
+
+# =========================
+# System files
+# =========================
 .DS_Store
 Thumbs.db
-
-.jpg
-
  
