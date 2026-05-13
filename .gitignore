@@ -9,7 +9,7 @@ __pycache__/
 # =========================
 # Virtual Environments
 # =========================
-brain_tf_venv
+brain_tf_venv/
 
 # =========================
 # Jupyter
@@ -55,4 +55,3 @@ logs/
 # =========================
 .DS_Store
 Thumbs.db
- 
