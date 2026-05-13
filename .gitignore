@@ -1,32 +1,9 @@
-# =========================
-# Python
-# =========================
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# =========================
-# Virtual Environments
-# =========================
+# Virtual Environment
 brain_tf_env/
-
-# =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# IDE
-# =========================
-.vscode/
-.idea/
-
-# =========================
-# Dataset Folders
-# =========================
-Training/
-Testing/
+ 
+# Dataset
+dataset/
+data/
 Crop-Brain-MRI/
 Test-Data/
 
@@ -55,3 +32,7 @@ logs/
 # =========================
 .DS_Store
 Thumbs.db
+
+.jpg
+
+ 
